@@ -6,6 +6,14 @@ Alejandro Ortiz
 ## Integrantes
 Alejandro Ortiz Cortés - alortizco@unal.edu.co
 
+## Configuraciones graficas Tetrio
+
+Deben realizarse las siguientes configuraciones:
+
+![Configuraciones graficas 2](media/media5.png)
+
+![Configuraciones graficas 1](media/media4.png)
+
 ## Instrucciones de uso del agente
 
 Instalar las librerías necesarias para la ejecución correcta del agente:
@@ -49,13 +57,15 @@ Se deben descomentar las líneas 317 - 319, las cuales son:
 
 Los mapas "d" y "n" deben reemplazarse por los que se imprimieron en consola.
 
+Si el agente no funciona despues de seleccionar el area de next, recalibre el area e intente de nuevo.
+
 Después, debe posicionarse la ventana donde se ejecuta el código por encima de la pestaña de Tetr.io, de tal forma que no tape las zonas detectadas anteriormente, e inmediatamente cambiar a la pestaña de Tetr.io. El programa debe ejecutarse antes de que el modo Blitz comience; debe hacerse durante la cuenta regresiva.
 
 Ejemplo:
 
 ![Ejemplo ejecución](media/media2.png)
 
-El agente empieza a ejecutarse cuando aparece la primera pieza en el "next". Para saber que el agente está listo, debe imprimir en consola lo siguiente:
+El agente empieza a ejecutarse cuando sale la primera pieza del "next". Para saber que el agente está listo, debe imprimir en consola lo siguiente:
 
 ```
 === Tetris Agent ===
